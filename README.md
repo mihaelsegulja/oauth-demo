@@ -14,7 +14,7 @@ Make sure you have the following installed and set up before starting:
 
 ### Configure secrets
 
-- Create appsettings.Development.json in the backend folder (add this file to .gitignore):
+- Create appsettings.Development.json in the backend folder:
 
 ```json
 {
@@ -27,7 +27,7 @@ Make sure you have the following installed and set up before starting:
 }
 ```
 
-- Or use User Secrets instead (recommended for local dev):
+- Or use User Secrets instead:
 
 ```shell
 cd backend
@@ -60,7 +60,7 @@ ANDROID_CLIENT_ID=your_android_client_id_here.apps.googleusercontent.com
 WEB_CLIENT_ID=your_web_client_id_here.apps.googleusercontent.com
 ```
 
-### Start the frontend
+### Run the frontend
 
 ```shell
 npm install
